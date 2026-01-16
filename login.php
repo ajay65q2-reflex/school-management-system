@@ -130,7 +130,7 @@
 
         <h2>Login</h2>
 
-        <!-- Error message -->
+        <!-- this is for error message -->
         <?php if (isset($_GET['error'])) { ?>
             <div class="alert">
                 <?=$_GET['error']?>
